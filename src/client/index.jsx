@@ -8,6 +8,7 @@ import SignUp from "./signup";
 import Login from "./login";
 import Auctions from "./auctions";
 import {Create} from "./create";
+import {Edit} from "./edit";
 
 
 export class App extends React.Component {
@@ -105,6 +106,11 @@ export class App extends React.Component {
                                                                              user={this.state.user}
                                                                              updateLoggedInUser={this.updateLoggedInUser}
                                                                              fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
+
+                        <Route exact path="/edit" render={props => <Edit {...props}
+                                                                         user={this.state.user}
+                                                                         updateLoggedInUser={this.updateLoggedInUser}
+                                                                         fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
 
                         <Route component={this.notFound}/>
                     </Switch>

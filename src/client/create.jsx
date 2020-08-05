@@ -13,7 +13,7 @@ export class Create extends React.Component{
         }
     }
 
-    onOk = async (name, description, price, menuItemId) => {
+    onOk = async (name, description, price, auctionId) => {
         const url = "/api/auctions";
 
         const payload = {name, description, price};

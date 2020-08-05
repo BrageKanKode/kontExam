@@ -1,5 +1,5 @@
 import React from "react";
-import MenuItem from "./menu_item";
+import AuctionItem from "./auction_item";
 
 export class Edit extends React.Component {
 
@@ -8,13 +8,13 @@ export class Edit extends React.Component {
 
 
         this.state = {
-            menuItem: null,
+            auctionItem: null,
             error: null
         };
 
-        this.menuItemId = new URLSearchParams(window.location.search).get("menuItemId");
+        this.auctionId = new URLSearchParams(window.location.search).get("auctionId");
 
-        if (this.menuItemId === null){
+        if (this.auctionId === null){
             this.state.error = "Unspecified menuitem id";
         }
     }
@@ -32,7 +32,7 @@ export class Edit extends React.Component {
 
     async fetchMenu(){
 
-        const url = "/api/menu" + this.menuItemId;
+        const url = "/api/auctions" + this.auctionId;
 
         let response;
         let payload;
@@ -43,7 +43,7 @@ export class Edit extends React.Component {
         } catch (err) {
             this.setState({
                 error: "Error when retrieving menu item: " + err,
-                menuItem: null
+                auctionItem: null
             });
             return;
         }
@@ -51,22 +51,22 @@ export class Edit extends React.Component {
         if (response.status === 200){
             this.setState({
                 error: null,
-                menuItem: payload
+                auctionItem: payload
             });
         } else {
             this.setState({
                 error: "Issue with the HTTP connection: status code: " + response.status,
-                menuItem: null
+                auctionItem: null
             })
         }
 
     }
 
 
-    onOk = async (name, description, dayOfWeek, id) => {
-        const url = "/api/menu/" + id;
+    onOk = async (name, description, price, id) => {
+        const url = "/api/auctions/" + id;
 
-        const payload = {id, name, description, dayOfWeek};
+        const payload = {id, name, description, price};
 
         let response;
 
@@ -98,7 +98,7 @@ export class Edit extends React.Component {
             );
         }
 
-        if (this.state.menuItem === null){
+        if (this.state.auctionItem === null){
             return (
                 <p>Loading...</p>
             );
@@ -111,11 +111,11 @@ export class Edit extends React.Component {
                 {loggedIn ? (
                     <div>
                         <h3>Edit Menu Item</h3>
-                        <MenuItem
-                            name={this.state.menuItem.name}
-                            description={this.state.menuItem.description}
-                            dayOfWeek={this.state.menuItem.dayOfWeek}
-                            menuItemId={this.menuItemId}
+                        <AuctionItem
+                            name={this.state.auctionItem.name}
+                            description={this.state.auctionItem.description}
+                            price={this.state.auctionItem.price}
+                            auctionId={this.auctionId}
                             ok={"Update"}
                             okCallback={this.onOk}
                         />

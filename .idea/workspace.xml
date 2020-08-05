@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/auction_item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/auctions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/create.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/db/auctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/auction_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/auctions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auctions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/create.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/edit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/edit.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db/auctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/auctions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +50,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596614781761</updated>
-      <workItem from="1596614782832" duration="14163000" />
+      <workItem from="1596614782832" duration="15611000" />
     </task>
+    <task id="LOCAL-00001" summary="User can create a profile, create auctions, and see all auctions available. &#10;&#10;Tests are in">
+      <created>1596631603838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596631603838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="User can create a profile, create auctions, and see all auctions available. &#10;&#10;Tests are in" />
+    <option name="LAST_COMMIT_MESSAGE" value="User can create a profile, create auctions, and see all auctions available. &#10;&#10;Tests are in" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596619534292">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596619534292" />
+    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596631602887">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596631602887" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1596617663549">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -77,6 +90,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="983" y="397" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596624757921" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596631605580">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596631605580" />
     <state x="936" y="353" width="672" height="678" key="search.everywhere.popup" timestamp="1596627140495">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

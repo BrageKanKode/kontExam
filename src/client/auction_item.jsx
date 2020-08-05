@@ -23,7 +23,7 @@ export class AuctionItem extends React.Component {
             this.state.name,
             this.state.description,
             this.state.price,
-            //this.props.menuItemId
+            this.props.auctionId
         );
 
         if(completed) {

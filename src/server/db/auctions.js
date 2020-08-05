@@ -42,12 +42,12 @@ function getAllAuctions() {
     return Array.from(auctions.values())
 }
 
-function updateAuction(menuItem) {
-    if (!auctions.has(menuItem.id)){
+function updateAuction(auctionId) {
+    if (!auctions.has(auctionId.id)){
         return false;
     }
 
-    auctions.set(menuItem.id, menuItem);
+    auctions.set(auctionId.id, auctionId);
     return true;
 }
 

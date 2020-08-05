@@ -57,7 +57,7 @@ export class Auctions extends React.Component {
 
 
     deleteAuction = async (id) => {
-        const url = "/api/menu/" + id;
+        const url = "/api/Auctions/" + id;
 
         let response;
 
@@ -112,7 +112,7 @@ export class Auctions extends React.Component {
                             <td>
                                 {loggedIn ? (
                                     <div>
-                                        <Link to={"/edit?menuItemId=" + m.id}>
+                                        <Link to={"/edit?auctionId=" + m.id}>
                                             <button className="editBtn">Edit</button>
                                         </Link>
                                         <button className="editBtn2" onClick={_ => this.deleteAuction(m.id)}>Delete</button>

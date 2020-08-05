@@ -8,7 +8,7 @@ import SignUp from "./signup";
 import Login from "./login";
 import Auctions from "./auctions";
 import {Create} from "./create";
-import {Edit} from "./edit";
+import {Bid} from "./bid";
 
 
 export class App extends React.Component {
@@ -107,10 +107,10 @@ export class App extends React.Component {
                                                                              updateLoggedInUser={this.updateLoggedInUser}
                                                                              fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
 
-                        <Route exact path="/edit" render={props => <Edit {...props}
-                                                                         user={this.state.user}
-                                                                         updateLoggedInUser={this.updateLoggedInUser}
-                                                                         fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
+                        <Route exact path="/edit" render={props => <Bid {...props}
+                                                                        user={this.state.user}
+                                                                        updateLoggedInUser={this.updateLoggedInUser}
+                                                                        fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
 
                         <Route component={this.notFound}/>
                     </Switch>

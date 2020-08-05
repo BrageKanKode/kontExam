@@ -1,7 +1,7 @@
 import React from "react";
-import AuctionItem from "./auction_item";
+import AuctionBid from "./auction_bid";
 
-export class Edit extends React.Component {
+export class Bid extends React.Component {
 
     constructor(props) {
         super(props);
@@ -22,7 +22,7 @@ export class Edit extends React.Component {
 
     componentDidMount() {
         if (this.state.error === null){
-            this.fetchMenu();
+            this.fetchAuction();
         }
 
         if(this.props.user) {
@@ -30,19 +30,19 @@ export class Edit extends React.Component {
         }
     }
 
-    async fetchMenu(){
+    async fetchAuction(){
 
-        const url = "/api/auctions" + this.auctionId;
+        const url = "/api/auctions/" + this.auctionId;
 
         let response;
         let payload;
 
         try {
             response = await fetch(url);
-            payload = response.json();
+            payload = await response.json();
         } catch (err) {
             this.setState({
-                error: "Error when retrieving menu item: " + err,
+                error: "Error when retrieving auction item: " + err,
                 auctionItem: null
             });
             return;
@@ -93,7 +93,7 @@ export class Edit extends React.Component {
         if (this.state.error !== null){
             return (
                 <div>
-                    <p>Cannot edit Menu Item. {this.state.error}</p>
+                    <p>Cannot edit Auction Item. {this.state.error}</p>
                 </div>
             );
         }
@@ -111,7 +111,7 @@ export class Edit extends React.Component {
                 {loggedIn ? (
                     <div>
                         <h3>Edit Menu Item</h3>
-                        <AuctionItem
+                        <AuctionBid
                             name={this.state.auctionItem.name}
                             description={this.state.auctionItem.description}
                             price={this.state.auctionItem.price}

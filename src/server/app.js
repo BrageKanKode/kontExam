@@ -41,6 +41,8 @@ app.get('/api/auctions', (req, res) => {
 });
 
 app.get('/api/auctions/:id', (req, res) => {
+    const test = req.params["id"]
+    console.log(test)
     const auction = auctions.getAuction(req.params["id"]);
 
     if (!auction){

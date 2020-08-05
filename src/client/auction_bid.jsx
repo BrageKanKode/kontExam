@@ -19,17 +19,21 @@ export class AuctionBid extends React.Component {
     onFormSubmit = async (event) => {
         event.preventDefault();
 
-        const completed = await this.props.okCallback(
-            this.state.name,
-            this.state.description,
-            this.state.price,
-            this.props.auctionId
-        );
+        if(this.props.price < this.state.price){
+            const completed = await this.props.okCallback(
+                this.state.name,
+                this.state.description,
+                this.state.price,
+                this.props.auctionId
+            );
 
-        if(completed) {
-            this.props.history.push('/Auctions');
+            if(completed) {
+                this.props.history.push('/Auctions');
+            } else {
+                alert("Failed to bid")
+            }
         } else {
-            alert("Failed to bid")
+            alert("Not high enough")
         }
     };
 
@@ -46,17 +50,17 @@ export class AuctionBid extends React.Component {
 
             <div className="menuWrapper">
 
-                Highest bid: {this.state.price}
+                Highest bid: {this.props.price}
 
 
                 <form onSubmit={this.onFormSubmit}>
                     <div className="inputDayOfWeek">Bid:</div>
                     <input
-                        placeholder={"Type the description of this menu item"}
+                        placeholder={"Must be higher"}
 
                         onChange={this.onPriceChange}
                         className="menuInput"
-                        id="menuItemDescription"
+                        id="AuctionDescription"
                     />
 
 

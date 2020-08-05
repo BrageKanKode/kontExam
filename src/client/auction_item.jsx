@@ -61,7 +61,7 @@ export class AuctionItem extends React.Component {
                         value={this.state.name}
                         onChange={this.onNameChange}
                         className="menuInput"
-                        id="menuItemName"
+                        id="auctionName"
                     />
                     <div className="inputDescription">Description:</div>
                     <input
@@ -69,7 +69,7 @@ export class AuctionItem extends React.Component {
                         value={this.state.description}
                         onChange={this.onDescriptionChange}
                         className="menuInput"
-                        id="menuItemDescription"
+                        id="auctionDescription"
                     />
                     <div className="inputDayOfWeek">Price:</div>
                     <input
@@ -77,7 +77,7 @@ export class AuctionItem extends React.Component {
                         value={this.state.price}
                         onChange={this.onPriceChange}
                         className="menuInput"
-                        id="menuItemDescription"
+                        id="auctionPrice"
                     />
 
 

@@ -44,18 +44,18 @@ export class Home extends React.Component {
                         <p>Logged in!!!!!</p>
 
                         <div className="btnPart">
-                            <Link to={"/countries"} className={"btn"}>Show complete list of Countries</Link>
-                            <Link to={"/assignedCountries"} className={"btn"}>See your assigned countries</Link>
+                            <Link to={"/auctions"} className={"btn"}>Show complete list of auctions</Link>
+                            <Link to={"/assignedAuctions"} className={"btn"}>See your auctions</Link>
                         </div>
 
                     </div>
                 ) : (
                     <div>
                         <p>
-                            Log in/sign up to get premium access and ALSO get 1000 free credits
+                            Log in/sign up to get premium access
                         </p>
                         <div className="btnPart">
-                            <Link to={"/countries"} className={"btn"}>Show complete list of Countries</Link>
+                            <Link to={"/auctions"} className={"btn"}>Show complete list of auctions</Link>
                         </div>
                     </div>
                 )}

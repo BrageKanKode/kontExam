@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="" />
+    <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/auction_item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/auctions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/create.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/db/auctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +25,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ffguHFN2PGPqZ1JbruAecHTMgk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../exam_setup-master" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -34,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596614781761</updated>
-      <workItem from="1596614782832" duration="7194000" />
+      <workItem from="1596614782832" duration="14163000" />
     </task>
     <servers />
   </component>
@@ -50,5 +69,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1596617663549" />
+    <state x="1158" y="597" key="Github.ShareDialog" timestamp="1596624748600">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1158" y="597" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596624748600" />
+    <state x="983" y="397" key="Github.UntrackedFilesDialog" timestamp="1596624757921">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="983" y="397" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596624757921" />
+    <state x="936" y="353" width="672" height="678" key="search.everywhere.popup" timestamp="1596627140495">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="353" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1596627140495" />
   </component>
 </project>

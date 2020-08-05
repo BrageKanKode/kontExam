@@ -6,9 +6,11 @@ import HeaderBar from "./headerbar";
 import {Home} from "./home";
 import SignUp from "./signup";
 import Login from "./login";
+import Auctions from "./auctions";
+import {Create} from "./create";
 
 
-export class App extends React.Component{
+export class App extends React.Component {
 
     constructor(props) {
         super(props);
@@ -82,17 +84,27 @@ export class App extends React.Component{
 
                     <Switch>
 
-                        <Route exact path="/signup" render={props => <SignUp {...props} fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
-                        <Route exact path="/login" render={props => <Login {...props} fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
+                        <Route exact path="/signup" render={props => <SignUp {...props}
+                                                                             fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
+                        <Route exact path="/login" render={props => <Login {...props}
+                                                                           fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
 
                         <Route exact path="/"
                                render={props => <Home {...props}
                                                       user={this.state.user}
                                                       userCount={this.state.userCount}
                                                       updateLoggedInUser={this.updateLoggedInUser}
-                                                      fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}
+                                                      fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
 
-                               />}/>
+                        <Route exact path="/auctions"
+                               render={props => <Auctions {...props}
+                                                          user={this.state.user}
+                                                          updateLoggedInUser={this.updateLoggedInUser}
+                                                          fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
+                        <Route exact path="/create" render={props => <Create {...props}
+                                                                             user={this.state.user}
+                                                                             updateLoggedInUser={this.updateLoggedInUser}
+                                                                             fetchAndUpdateUserInfo={this.fetchAndUpdateUserInfo}/>}/>
 
                         <Route component={this.notFound}/>
                     </Switch>

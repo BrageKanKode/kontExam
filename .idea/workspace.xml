@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/auction_bid.jsx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/auction_item.jsx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/auctions.jsx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/bid.jsx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/create.jsx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/server/db/auctions.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/client/auction-test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/client/auction_item-test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/server/app-test.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/headerbar.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/headerbar.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/home.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/home.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/index.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/index.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/login.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/login.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/signup.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/signup.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/app.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/app.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/db/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/users.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/db/users.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/auth-api.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/routes/auth-api.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/auction_bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_bid.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/auction_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/auctions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auctions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/create.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db/auctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/auctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/routes/auth-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/routes/auth-api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596614781761</updated>
       <workItem from="1596614782832" duration="27413000" />
-      <workItem from="1596646033676" duration="3158000" />
+      <workItem from="1596646033676" duration="8651000" />
     </task>
     <task id="LOCAL-00001" summary="User can create a profile, create auctions, and see all auctions available. &#10;&#10;Tests are in">
       <created>1596631603838</created>
@@ -98,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596646489471</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added tests for 56% code coverage">
+      <created>1596649325232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596649325232</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,17 +94,18 @@
     <MESSAGE value="User can create a profile, create auctions, and see all auctions available. &#10;&#10;Tests are in" />
     <MESSAGE value="User can now edit list" />
     <MESSAGE value="User can now bid" />
-    <option name="LAST_COMMIT_MESSAGE" value="User can now bid" />
+    <MESSAGE value="added tests for 56% code coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests for 56% code coverage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596634118904">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596634118904" />
-    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596646488097">
+    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596649324064">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596646488097" />
+    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596649324064" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1596617663549">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -132,10 +118,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="983" y="397" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596624757921" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596646490964">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596649326885">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596646490964" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596649326885" />
     <state x="936" y="353" width="672" height="678" key="search.everywhere.popup" timestamp="1596627140495">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -8,7 +8,8 @@ export class AuctionItem extends React.Component {
         this.state = {
             name: this.props.name ? this.props.name : "",
             description: this.props.description ? this.props.description : "",
-            price: this.props.price ? this.props.price : ""
+            price: this.props.price ? this.props.price : "",
+            userId: this.props.user.userId ? this.props.user.userId : ""
         };
 
         this.ok = this.props.ok ? this.props.ok : "Ok";
@@ -23,7 +24,7 @@ export class AuctionItem extends React.Component {
             this.state.name,
             this.state.description,
             this.state.price,
-            this.props.auctionId
+            this.state.userId
         );
 
         if(completed) {
@@ -53,11 +54,12 @@ export class AuctionItem extends React.Component {
 
             <div className="menuWrapper">
 
+                your userId: {this.state.userId}
 
                 <form onSubmit={this.onFormSubmit}>
                     <div className="inputName">Name:</div>
                     <input
-                        placeholder={"Type the name od this menu item"}
+                        placeholder={"What are you selling?"}
                         value={this.state.name}
                         onChange={this.onNameChange}
                         className="menuInput"
@@ -65,15 +67,15 @@ export class AuctionItem extends React.Component {
                     />
                     <div className="inputDescription">Description:</div>
                     <input
-                        placeholder={"Type the description of this menu item"}
+                        placeholder={"Some info"}
                         value={this.state.description}
                         onChange={this.onDescriptionChange}
                         className="menuInput"
                         id="auctionDescription"
                     />
-                    <div className="inputDayOfWeek">Price:</div>
+                    <div className="inputDayOfWeek">Starting price:</div>
                     <input
-                        placeholder={"Type the description of this menu item"}
+                        placeholder={"Starting price"}
                         value={this.state.price}
                         onChange={this.onPriceChange}
                         className="menuInput"

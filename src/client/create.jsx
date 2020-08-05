@@ -13,10 +13,10 @@ export class Create extends React.Component{
         }
     }
 
-    onOk = async (name, description, price, auctionId) => {
+    onOk = async (name, description, price, userId) => {
         const url = "/api/auctions";
 
-        const payload = {name, description, price};
+        const payload = {name, description, price, userId};
 
         let response;
 
@@ -44,12 +44,14 @@ export class Create extends React.Component{
             <div>
                 {loggedIn ? (
                     <div>
+                        Your UserId: {this.props.user.userId}
                         <h3>Create a new Menu Item</h3>
                         <AuctionItem
                             user={this.props.user}
                             name={""}
                             description={""}
                             price={""}
+                            userId={this.props.user.userId}
                             ok={"Create"}
                             okCallback={this.onOk}
                         />

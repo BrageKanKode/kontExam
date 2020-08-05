@@ -2,20 +2,20 @@
 
 const auctions = new Map();
 
-let counter = 0;
+let counter = 1;
 
 function initWithAuctions() {
     auctions.clear();
     counter = 0;
 
-    createNewAuction("Motorcycle", "Good motorcycle", "900");
-    createNewAuction("Car", "It's red", "1000");
-    createNewAuction("Burger", "Our classic burger", "100");
+    createNewAuction("Motorcycle", "Good motorcycle", "900", "0");
+    createNewAuction("Car", "It's red", "1000", "0");
+    createNewAuction("Burger", "Our classic burger", "100", "0");
 
 
 }
 
-function createNewAuction(name, description, price){
+function createNewAuction(name, description, price, userId){
     const id = "" + counter;
     counter++;
 
@@ -23,7 +23,8 @@ function createNewAuction(name, description, price){
         id: id,
         name: name,
         description: description,
-        price: price
+        price: price,
+        userId: userId
     };
 
     auctions.set(id, menuItem);

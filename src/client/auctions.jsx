@@ -36,7 +36,7 @@ export class Auctions extends React.Component {
             payload = await response.json();
         } catch (err) {
             this.setState({
-                error: "Error when retrieving list of books: " + err,
+                error: "Error when retrieving list of auctions: " + err,
                 auctionItems: null
             });
             return;
@@ -86,12 +86,14 @@ export class Auctions extends React.Component {
         const user = this.props.user;
         const loggedIn = user !== null && user !== undefined;
 
+
+
         let table;
 
         if (this.state.error){
             table = <p>{this.state.error}</p>
         } else if(!this.state.auctionItems || this.state.auctionItems.length === 0) {
-            table = <p>There is no menu registered in the database</p>
+            table = <p>There is no auction registered in the database</p>
         } else {
             table = <div>
                 <table className="completeMenu">
@@ -108,14 +110,16 @@ export class Auctions extends React.Component {
                         <tr key={"key_" + m.id} className="oneMenuItem">
                             <td>{m.name}</td>
                             <td>{m.description}</td>
-                            <td>{m.price}</td>
+                            <td>{m.userId}</td>
                             <td>
                                 {loggedIn ? (
                                     <div>
                                         <Link to={"/edit?auctionId=" + m.id}>
                                             <button className="editBtn">Edit</button>
                                         </Link>
-                                        <button className="editBtn2" onClick={_ => this.deleteAuction(m.id)}>Delete</button>
+                                        {this.props.user.userId === m.userId && (
+                                            <button className="editBtn2" onClick={_ => this.deleteAuction(m.id)}>Delete</button>
+                                        )}
                                     </div>
                                 ) : (
                                     <div>
@@ -139,7 +143,7 @@ export class Auctions extends React.Component {
 
                 {loggedIn ? (
                     <div>
-                        <h2>Menu list</h2>
+                        <h2>Auction list</h2>
                         <Link to={"/create"}>
                             <button className="createBtn">Add new Auction</button>
                         </Link>
@@ -148,7 +152,7 @@ export class Auctions extends React.Component {
                     </div>
                 ) : (
                     <div>
-                        <h2>Menu list</h2>
+                        <h2>Auction list</h2>
 
                         {table}
                     </div>

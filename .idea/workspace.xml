@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +72,7 @@
       <updated>1596614781761</updated>
       <workItem from="1596614782832" duration="27413000" />
       <workItem from="1596646033676" duration="8651000" />
-      <workItem from="1596733736347" duration="2595000" />
+      <workItem from="1596733736347" duration="2936000" />
     </task>
     <task id="LOCAL-00001" summary="User can create a profile, create auctions, and see all auctions available. &#10;&#10;Tests are in">
       <created>1596631603838</created>
@@ -146,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596735278741</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Done.v5">
+      <created>1596736677281</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596736677281</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,17 +169,18 @@
     <MESSAGE value="Done" />
     <MESSAGE value="Done.v2" />
     <MESSAGE value="Done.v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done.v4" />
+    <MESSAGE value="Done.v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done.v5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596634118904">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596634118904" />
-    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596735276994">
+    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596736676778">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596735276994" />
+    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596736676778" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1596736428520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -203,10 +209,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596710015080" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596735281116">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596736788486">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596735281116" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596736788486" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1596714145636">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

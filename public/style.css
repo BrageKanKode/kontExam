@@ -1,0 +1,161 @@
+/*https://github.com/arcuri82/web_development_and_api_design/blob/master/exercise-solutions/quiz-game/part-10/public/style.css
+This code is from a lecture, and is fitted for this assignment*/
+
+body{
+    background-color: darkslategray;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    min-width: 70%;
+    width: 100%;
+    align-items: center;
+}
+
+.indexDiv{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.heading {
+    font-size: 4em;
+    margin: 2rem 0;
+}
+
+.welcome-text {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.smallTitle{
+    text-align: center;
+}
+
+
+
+
+#root {
+    margin: 30px;
+}
+
+
+.headerBar {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.msgDiv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+
+}
+.notLoggedInMsg {
+    justify-self: flex-start;
+}
+.home {
+    float: left;
+}
+.btnPartHeader {
+    float: right;
+    margin: 30px;
+}
+
+.index {
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    width: 30px;
+    border: 1px solid transparent;
+    margin-right: -1px;
+    margin-top: -1px;
+}
+
+
+.btnPart {
+    display: inline-flex;
+}
+
+.menuWrapper {
+
+    width: 90%;
+    margin: auto;
+    background: dimgray;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 2%;
+
+}
+
+.submitBtn, .btn, .loginBtn{
+    background: lightslategray;
+    border: none;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    padding: 15px 25px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+li {
+    font-weight: 300;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    border-top: 1px solid #eee;
+    display: flex;
+}
+
+.completePokemonList, .completeOwnedPokemonList, .completeLootboxList {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.onePokemon {
+    padding: 4px;
+}
+
+.tableData{
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.lastInput{
+    display: none;
+}
+
+

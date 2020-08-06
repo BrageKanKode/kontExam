@@ -63,10 +63,10 @@ export class Bid extends React.Component {
     }
 
 
-    onOk = async (name, description, price, currentBid, id) => {
+    onOk = async (name, description, price, available, currentBid, userId, id) => {
         const url = "/api/auctions/" + id;
 
-        const payload = {id, name, description, price, currentBid};
+        const payload = {name, description, price, available, currentBid, userId, id};
 
         let response;
 
@@ -110,13 +110,17 @@ export class Bid extends React.Component {
             <div>
                 {loggedIn ? (
                     <div>
+                        Your userId: {this.props.user.userId}
                         <h3>Edit Menu Item</h3>
                         <AuctionBid
                             name={this.state.auctionItem.name}
                             description={this.state.auctionItem.description}
                             price={this.state.auctionItem.price}
                             currentBid={this.state.auctionItem.currentBid}
+                            available={this.state.auctionItem.available}
+                            userId={this.state.auctionItem.userId}
                             auctionId={this.auctionId}
+                            user={this.props.user}
                             ok={"Update"}
                             okCallback={this.onOk}
                         />

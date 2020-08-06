@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/client/auction_bid-test.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
@@ -26,11 +27,12 @@
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/auction_bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_bid.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/auction_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_item.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/auctions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auctions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/create.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/db/auctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/auctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/bid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/client/auction_item-test.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/client/login-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/client/login-test.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../exam_setup-master" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Test can render login form" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/client/login-test.jsx" />
+      <test-names>
+        <test-name value="Test can render login form" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Test can render login form" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -111,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596705413341</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="User can now mark auctions as sold&#10;User can't bid on sold auctions">
+      <created>1596707134823</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596707134824</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,17 +154,18 @@
     <MESSAGE value="User can now bid" />
     <MESSAGE value="added tests for 56% code coverage" />
     <MESSAGE value="Added currentBid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added currentBid" />
+    <MESSAGE value="User can now mark auctions as sold&#10;User can't bid on sold auctions" />
+    <option name="LAST_COMMIT_MESSAGE" value="User can now mark auctions as sold&#10;User can't bid on sold auctions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596634118904">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596634118904" />
-    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596705412188">
+    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596707133614">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596705412188" />
+    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596707133614" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1596617663549">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -147,10 +178,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="983" y="397" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596624757921" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596705415068">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1596710015080">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596705415068" />
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596710015080" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1596710015080">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596710015080" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1596710015080">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596710015080" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1596710015080">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596710015080" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596707136887">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596707136887" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1596714145636">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1596714145636" />
     <state x="936" y="353" width="672" height="678" key="search.everywhere.popup" timestamp="1596627140495">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

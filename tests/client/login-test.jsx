@@ -25,6 +25,21 @@ function fillForm(driver, id, password){
     loginBtn.simulate('click');
 }
 
+// test('Test can render login form', () => {
+//     const driver = mount(
+//         <MemoryRouter>
+//             <Login/>
+//         </MemoryRouter>
+//     );
+//
+//     const forms = driver.find('#userIdInput');
+//     expect(forms.length).toEqual(1);
+//
+//
+//     const btns = driver.find('#passwordInput');
+//     expect(btns.length).toEqual(1);
+// });
+
 test("Test fail login", async () => {
 
     overrideFetch(app);
@@ -44,6 +59,8 @@ test("Test fail login", async () => {
 
     expect(error).toEqual(true);
 });
+
+
 
 
 test("Test valid login", async () =>{
@@ -72,3 +89,4 @@ test("Test valid login", async () =>{
 
     expect(redirected).toEqual(true);
 });
+

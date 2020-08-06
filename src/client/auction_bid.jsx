@@ -9,7 +9,10 @@ export class AuctionBid extends React.Component {
             name: this.props.name ? this.props.name : "Can't get",
             description: this.props.description ? this.props.description : "Can't get",
             price: this.props.price ? this.props.price : "Can't get",
-            currentBid: this.props.currentBid ? this.props.currentBid : "Can't get"
+            available: this.props.available ? this.props.available : "Can't get",
+            currentBid: this.props.currentBid ? this.props.currentBid : "Can't get",
+            userId: this.props.userId ? this.props.userId : this.props.userId,
+            auctionId: this.props.auctionId ? this.props.auctionId : "Can't get"
         };
 
         this.ok = this.props.ok ? this.props.ok : "Ok";
@@ -20,13 +23,15 @@ export class AuctionBid extends React.Component {
     onFormSubmit = async (event) => {
         event.preventDefault();
 
-        if(this.props.currentBid < this.state.currentBid && this.state.currentBid > this.state.price){
+        if(this.props.currentBid < this.state.currentBid){
             const completed = await this.props.okCallback(
                 this.state.name,
                 this.state.description,
                 this.state.price,
+                this.state.available,
                 this.state.currentBid,
-                this.props.auctionId
+                this.state.userId,
+                this.state.auctionId
             );
 
             if(completed) {
@@ -55,6 +60,10 @@ export class AuctionBid extends React.Component {
                 Starting price: {this.props.price}
                 <br/>
                 Current bid: {this.props.currentBid}
+                <br/>
+                Your userId: {this.props.user.userId}
+                <br/>
+                AuctionId: {this.props.auctionId}
 
 
                 <form onSubmit={this.onFormSubmit}>
@@ -64,7 +73,7 @@ export class AuctionBid extends React.Component {
 
                         onChange={this.onPriceChange}
                         className="menuInput"
-                        id="AuctionDescription"
+                        id="AuctionPrice"
                     />
 
 

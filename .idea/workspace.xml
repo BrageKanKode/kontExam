@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/auction_bid.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/auction_item.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/auctions.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/bid.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/create.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/headerbar.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/home.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/index.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/login.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/signup.jsx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/app.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/auctions.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/users.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/auth-api.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596732135737</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Done.v2">
+      <created>1596732558755</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596732558755</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,17 +184,18 @@
     <MESSAGE value="User can now mark auctions as sold&#10;User can't bid on sold auctions" />
     <MESSAGE value="All bugs are now gone" />
     <MESSAGE value="Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done" />
+    <MESSAGE value="Done.v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done.v2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596634118904">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596634118904" />
-    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596732134379">
+    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596732558151">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596732134379" />
+    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596732558151" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1596725506522">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

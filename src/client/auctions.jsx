@@ -131,7 +131,6 @@ export class Auctions extends React.Component {
                         <th>Description</th>
                         <th>Price</th>
                         <th>Current bid</th>
-                        <th>auction UserId</th>
                         <th>Available</th>
                         <th>Options</th>
                     </tr>
@@ -143,7 +142,6 @@ export class Auctions extends React.Component {
                             <td>{m.description}</td>
                             <td>{m.price}</td>
                             <td>{m.currentBid}</td>
-                            <td>{m.userId}</td>
                             {m.available ? (
                                 <td>Available</td>
                             ) : (
@@ -154,13 +152,13 @@ export class Auctions extends React.Component {
                                     <div>
                                         {this.props.user.userId !== m.userId && m.available && (
                                             <Link to={"/edit?auctionId=" + m.id}>
-                                                <button className="editBtn">Bid</button>
+                                                <button className="btn">Bid</button>
                                             </Link>
                                         )}
                                         {this.props.user.userId === m.userId && (
                                             <div>
-                                                <button className="editBtn2" onClick={_ => this.deleteAuction(m.id)}>Delete</button> <br/>
-                                                <button className="editBtn3" onClick={_ => this.markAuctionAsSold(m.id, m.name, m.description, m.price, m.currentBid, m.available, m.userId)}>Toggle Sold</button>
+                                                <button className="btn" onClick={_ => this.deleteAuction(m.id)}>Delete</button> <br/>
+                                                <button className="btn" onClick={_ => this.markAuctionAsSold(m.id, m.name, m.description, m.price, m.currentBid, m.available, m.userId)}>Toggle Sold</button>
                                             </div>
                                         )}
                                     </div>
@@ -188,7 +186,7 @@ export class Auctions extends React.Component {
                     <div>
                         <h2>Auction list</h2>
                         <Link to={"/create"}>
-                            <button className="createBtn">Add new Auction</button>
+                            <button className="btn">Add new Auction</button>
                         </Link>
                         {table}
 

@@ -23,7 +23,7 @@ afterAll(() => {
     server.close();
 });
 
-test("Test display menuItems using SuperTest", async () => {
+test("Test display Auction using SuperTest", async () => {
 
     db.initWithAuctions();
     overrideFetch(app);
@@ -59,11 +59,11 @@ test("Test display menuItems using SuperTest", async () => {
 
 test("Test display 1 menuItem using stub", async () => {
 
-    const name = "Pizza Parma";
+    const name = "Paper";
 
     stubFetch(
         200,
-        [{id:0, name: name, description: "Delicious pizza parma from italy", dayOfWeek: "Monday"}],
+        [{id:0, name: name, description: "Delicious paper parma from DunderMifflin", price: "10"}],
         (url) => url.endsWith("/api/auctions")
     );
 

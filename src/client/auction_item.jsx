@@ -58,8 +58,6 @@ export class AuctionItem extends React.Component {
 
             <div className="menuWrapper">
 
-                your userId: {this.state.userId}
-
                 <form onSubmit={this.onFormSubmit}>
                     <div className="inputName">Name:</div>
                     <input

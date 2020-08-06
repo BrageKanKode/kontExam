@@ -10,7 +10,7 @@ const {Login} = require('../../src/client/login');
 const {resetAllUsers, getUser, createUser} = require('../../src/server/db/users');
 
 
-beforeEach(resetAllUsers);
+
 
 
 function fillForm(driver, id, password){
@@ -24,21 +24,10 @@ function fillForm(driver, id, password){
 
     loginBtn.simulate('click');
 }
+beforeEach(resetAllUsers);
 
-// test('Test can render login form', () => {
-//     const driver = mount(
-//         <MemoryRouter>
-//             <Login/>
-//         </MemoryRouter>
-//     );
-//
-//     const forms = driver.find('#userIdInput');
-//     expect(forms.length).toEqual(1);
-//
-//
-//     const btns = driver.find('#passwordInput');
-//     expect(btns.length).toEqual(1);
-// });
+
+
 
 test("Test fail login", async () => {
 
@@ -89,4 +78,5 @@ test("Test valid login", async () =>{
 
     expect(redirected).toEqual(true);
 });
+
 

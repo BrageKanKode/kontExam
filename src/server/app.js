@@ -17,10 +17,10 @@ const Users = require('./db/users');
 
 
 //Some default users
-Users.createUser("Joakim", "1234");
-Users.createUser("Jon", "4321");
-Users.createUser("Brage", "111111");
-Users.createUser("Andrea", "andrea123");
+Users.createUser("Brage", "1234");
+Users.createUser("Jonatan", "1234");
+Users.createUser("Andrea", "1234");
+Users.createUser("Jon", "1234");
 
 
 
@@ -97,63 +97,7 @@ app.all('/api/auctions/*', (req,res) => {
     res.send();
 });
 
-/////////////chat/////////////
 
-let counter = 0;
-
-const messages = [];
-
-app.get('/api/messages', (req, res) => {
-
-    const since = req.query["since"];
-
-    const data = messages;
-
-    if (since) {
-        res.json(data.filter(m => m.id > since));
-    } else {
-        res.json(data);
-    }
-});
-
-
-app.post('/api/messages', (req, res) => {
-
-    const dto = req.body;
-
-    const id = counter++;
-
-    const msg = {id: id, author: dto.author, text: dto.text};
-
-
-    messages.push(msg);
-
-
-
-    res.status(201); //created
-    res.send();
-
-    const nclients = ews.getWss().clients.size;
-    console.log("Going to broadcast message to " + nclients +" clients");
-
-    ews.getWss().clients.forEach((client) => {
-        if (client.readyState === WS.OPEN) {
-            const json = JSON.stringify(msg);
-            console.log("Broadcasting to client: " + JSON.stringify(msg));
-            client.send(json);
-        } else {
-            console.log("Client not ready");
-        }
-    });
-});
-
-function clearMessages(){
-    //yep, that's how you "clear" an array in JS...
-    messages.length = 0;
-}
-
-
-///////////////////////////
 app.use(session({
     secret: 'a secret used to encrypt the session cookies',
     resave: false,
@@ -211,4 +155,4 @@ app.use((req, res, next) => {
     res.sendFile(path.resolve(__dirname, '..', '..', 'public', 'index.html'));
 });
 
-module.exports = {app, clearMessages};
+module.exports = {app};

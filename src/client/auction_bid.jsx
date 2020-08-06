@@ -57,14 +57,6 @@ export class AuctionBid extends React.Component {
 
             <div className="menuWrapper">
 
-                Starting price: {this.props.price}
-                <br/>
-                Current bid: {this.props.currentBid}
-                <br/>
-                Your userId: {this.props.user.userId}
-                <br/>
-                AuctionId: {this.props.auctionId}
-
 
                 <form onSubmit={this.onFormSubmit}>
                     <div className="inputDayOfWeek">Bid:</div>
@@ -77,7 +69,7 @@ export class AuctionBid extends React.Component {
                     />
 
 
-                    <button type="submit" className={"submitBtn"}>{this.ok}</button>
+                    <button type="submit" className={"submitBtn"} id={"submitBtn"}>{this.ok}</button>
                     <Link to={"/auctions"}>
                         <button className={"btn"}>Cancel</button>
                     </Link>

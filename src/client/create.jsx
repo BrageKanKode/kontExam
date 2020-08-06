@@ -44,7 +44,6 @@ export class Create extends React.Component{
             <div>
                 {loggedIn ? (
                     <div>
-                        Your UserId: {this.props.user.userId}
                         <h3>Create a new Menu Item</h3>
                         <AuctionItem
                             user={this.props.user}

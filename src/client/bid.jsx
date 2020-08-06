@@ -110,8 +110,7 @@ export class Bid extends React.Component {
             <div>
                 {loggedIn ? (
                     <div>
-                        Your userId: {this.props.user.userId}
-                        <h3>Edit Menu Item</h3>
+                        <h3>Bid on the auction</h3>
                         <AuctionBid
                             name={this.state.auctionItem.name}
                             description={this.state.auctionItem.description}

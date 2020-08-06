@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/client/auction_bid-test.jsx" afterDir="false" />
+    <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="All bugs are now gone">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
@@ -27,12 +27,19 @@
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/auction_bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_bid.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/auction_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_item.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/auctions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auctions.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/bid.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/client/auction_item-test.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/create.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/client/auction-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/client/auction-test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/client/auction_bid-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/client/auction_bid-test.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/client/login-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/client/login-test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/server/app-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/server/app-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/server/auth-api-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/server/auth-api-test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +71,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exam_setup-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PG6301-1-20V-Exam-master" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\OneDrive\Documents\Skole\4.semester\Webutvikling og API design\kontExam\tests\server\routes" />
+      <recent name="B:\OneDrive\Documents\Skole\4.semester\Webutvikling og API design\kontExam\tests\server" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Test can render login form" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -141,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596707134824</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="All bugs are now gone">
+      <created>1596717114093</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596717114093</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,21 +175,22 @@
     <MESSAGE value="added tests for 56% code coverage" />
     <MESSAGE value="Added currentBid" />
     <MESSAGE value="User can now mark auctions as sold&#10;User can't bid on sold auctions" />
-    <option name="LAST_COMMIT_MESSAGE" value="User can now mark auctions as sold&#10;User can't bid on sold auctions" />
+    <MESSAGE value="All bugs are now gone" />
+    <option name="LAST_COMMIT_MESSAGE" value="All bugs are now gone" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596634118904">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596634118904" />
-    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596707133614">
+    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596732032954">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596707133614" />
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1596617663549">
+    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596732032954" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1596725506522">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1596617663549" />
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1596725506522" />
     <state x="1158" y="597" key="Github.ShareDialog" timestamp="1596624748600">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -194,10 +215,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596710015080" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596707136887">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596717115900">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596707136887" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596717115900" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1596714145636">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

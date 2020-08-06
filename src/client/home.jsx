@@ -45,7 +45,6 @@ export class Home extends React.Component {
 
                         <div className="btnPart">
                             <Link to={"/auctions"} className={"btn"}>Show complete list of auctions</Link>
-                            <Link to={"/assignedAuctions"} className={"btn"}>See your auctions</Link>
                         </div>
 
                     </div>

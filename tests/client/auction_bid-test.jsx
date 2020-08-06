@@ -12,6 +12,9 @@ test('Test can render auction_bid form', () => {
     );
 
 
+    const form = driver.find('#submitBtn');
+    expect(form.length).toEqual(1);
+
     const btns = driver.find('#AuctionPrice');
     expect(btns.length).toEqual(1);
 });

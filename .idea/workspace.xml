@@ -2,37 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/auction_bid.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/auction_item.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/auctions.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/bid.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/create.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/headerbar.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/home.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/index.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/login.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/client/signup.jsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/server/app.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/server/db/auctions.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/server/db/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/server/db/users.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/server/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/server/routes/auth-api.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/auction_bid.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/auction_item.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/auctions.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/bid.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/create.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/headerbar.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/home.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/index.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/login.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/signup.jsx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/app.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/auctions.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/users.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/auth-api.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/auction_bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_bid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/auction_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/auctions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auctions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/bid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/create.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/headerbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/headerbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/signup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db/auctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/auctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/routes/auth-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/routes/auth-api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/client/auction-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/client/auction-test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mytest-utils-ws.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mytest-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mytest-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/server/auth-api-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/server/auth-api-test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +122,7 @@
       <updated>1596614781761</updated>
       <workItem from="1596614782832" duration="27413000" />
       <workItem from="1596646033676" duration="8651000" />
+      <workItem from="1596733736347" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="User can create a profile, create auctions, and see all auctions available. &#10;&#10;Tests are in">
       <created>1596631603838</created>

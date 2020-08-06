@@ -1,3 +1,5 @@
+// https://github.com/arcuri82/web_development_and_api_design/blob/master/les07/server_client_together/src/client/book.jsx
+//This code is from the repository, but is refitted to fit the assignment
 import React from "react";
 import {Link, withRouter} from 'react-router-dom'
 

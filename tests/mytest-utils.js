@@ -1,4 +1,4 @@
-// Origin: shared/mytest-utils.js
+// https://github.com/arcuri82/web_development_and_api_design/blob/master/les07/server_client_together/tests/mytest-utils.js
 
 const request = require('supertest');
 

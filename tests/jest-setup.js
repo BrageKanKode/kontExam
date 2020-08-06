@@ -1,4 +1,4 @@
-// Origin: shared/jest-setup.js
+// https://github.com/arcuri82/web_development_and_api_design/blob/master/exercise-solutions/quiz-game/part-10/tests/jest-setup.js
 
 const {configure } = require('enzyme');
 const jsdom = require('jsdom');

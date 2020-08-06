@@ -1,4 +1,5 @@
-
+//https://github.com/arcuri82/web_development_and_api_design/blob/master/exercise-solutions/quiz-game/part-10/src/server/db/quizzes.js
+//This code is from a lecture, and is fitted for this assignment
 
 const auctions = new Map();
 

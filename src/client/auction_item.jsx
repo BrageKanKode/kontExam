@@ -10,6 +10,7 @@ export class AuctionItem extends React.Component {
             description: this.props.description ? this.props.description : "",
             price: this.props.price ? this.props.price : "",
             currentBid: this.props.currentBid ? this.props.currentBid : "0",
+            available: this.props.available ? this.props.available : true,
             userId: this.props.user.userId ? this.props.user.userId : ""
         };
 
@@ -26,6 +27,7 @@ export class AuctionItem extends React.Component {
             this.state.description,
             this.state.price,
             this.state.currentBid,
+            this.state.available,
             this.state.userId
         );
 

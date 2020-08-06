@@ -67,7 +67,7 @@ app.post('/api/auctions', (req, res) => {
 
     const dto = req.body;
 
-    const id = auctions.createNewAuction(dto.name, dto.description, dto.price, dto.currentBid, dto.userId);
+    const id = auctions.createNewAuction(dto.name, dto.description, dto.price, dto.currentBid, dto.userId, dto.available);
     res.status(201);
     res.header("location", "api/auctions/" + id);
     res.send();

@@ -78,14 +78,14 @@ export class Auctions extends React.Component {
         return true;
     };
 
-    markAuctionAsSold = async (id, name, description, price, userId, available) => {
+    markAuctionAsSold = async (id, name, description, price, currentBid, available, userId) => {
         const url = "/api/auctions/" + id;
         if(available){
             available = false
         } else {
             available = true
         }
-        const payload = {id, name, description, price, userId, available};
+        const payload = {id, name, description, price, currentBid, available, userId};
 
         let response;
 
@@ -131,6 +131,7 @@ export class Auctions extends React.Component {
                         <th>Description</th>
                         <th>Price</th>
                         <th>Current bid</th>
+                        <th>Available</th>
                         <th>Options</th>
                     </tr>
                     </thead>
@@ -141,16 +142,24 @@ export class Auctions extends React.Component {
                             <td>{m.description}</td>
                             <td>{m.price}</td>
                             <td>{m.currentBid}</td>
+                            {m.available ? (
+                                <td>Available</td>
+                            ) : (
+                                <td>Sold</td>
+                            )}
                             <td>
                                 {loggedIn ? (
                                     <div>
-                                        {this.props.user.userId !== m.userId && (
+                                        {this.props.user.userId !== m.userId && m.available && (
                                             <Link to={"/edit?auctionId=" + m.id}>
                                                 <button className="editBtn">Bid</button>
                                             </Link>
                                         )}
                                         {this.props.user.userId === m.userId && (
-                                            <button className="editBtn2" onClick={_ => this.deleteAuction(m.id)}>Delete</button>
+                                            <div>
+                                                <button className="editBtn2" onClick={_ => this.deleteAuction(m.id)}>Delete</button>
+                                                <button className="editBtn3" onClick={_ => this.markAuctionAsSold(m.id, m.name, m.description, m.price, m.currentBid, m.available, m.userId)}>Mark as sold</button>
+                                            </div>
                                         )}
                                     </div>
                                 ) : (

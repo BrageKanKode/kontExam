@@ -8,15 +8,15 @@ function initWithAuctions() {
     auctions.clear();
     counter = 0;
 
-    createNewAuction("Motorcycle", "Good motorcycle", 900, 0, 0);
-    createNewAuction("Car", "It's red", 1000,0,  0);
-    createNewAuction("Burger", "Our classic burger", 100,0,  0);
+    createNewAuction("Motorcycle", "Good motorcycle", 900, 0, 0, true);
+    createNewAuction("Car", "It's red", 1000,0,  0, true);
+    createNewAuction("Burger", "Our classic burger", 100,0,  0, false);
 
 
 }
 let counter = 1;
 
-function createNewAuction(name, description, price, currentBid, userId){
+function createNewAuction(name, description, price, currentBid, userId, available){
     const id = "" + counter;
     counter++;
 
@@ -26,6 +26,7 @@ function createNewAuction(name, description, price, currentBid, userId){
         description: description,
         price: price,
         currentBid: currentBid,
+        available: available,
         userId: userId
     };
 

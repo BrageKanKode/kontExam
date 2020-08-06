@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/auction_bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_bid.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/auction_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_item.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/auctions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auctions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/bid.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/create.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/db/auctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/auctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/db/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/routes/auth-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/routes/auth-api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

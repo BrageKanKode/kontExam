@@ -22,7 +22,7 @@ function verifyUser(id, password){
 
 let userId = 0;
 function createUser(id, password){
-    userId++;
+
 
     if(getUser(id)){
         return false;
@@ -33,6 +33,7 @@ function createUser(id, password){
         userId: userId,
         password: password
     };
+    userId++;
 
 
     users.set(id, user);

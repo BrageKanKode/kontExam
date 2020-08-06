@@ -6,9 +6,10 @@ export class AuctionBid extends React.Component {
         super(props);
 
         this.state = {
-            name: this.props.name ? this.props.name : "hei",
-            description: this.props.description ? this.props.description : "på deg",
-            price: this.props.price ? this.props.price : "Can't get"
+            name: this.props.name ? this.props.name : "Can't get",
+            description: this.props.description ? this.props.description : "Can't get",
+            price: this.props.price ? this.props.price : "Can't get",
+            currentBid: this.props.currentBid ? this.props.currentBid : "Can't get"
         };
 
         this.ok = this.props.ok ? this.props.ok : "Ok";
@@ -19,11 +20,12 @@ export class AuctionBid extends React.Component {
     onFormSubmit = async (event) => {
         event.preventDefault();
 
-        if(this.props.price < this.state.price){
+        if(this.props.currentBid < this.state.currentBid && this.state.currentBid > this.state.price){
             const completed = await this.props.okCallback(
                 this.state.name,
                 this.state.description,
                 this.state.price,
+                this.state.currentBid,
                 this.props.auctionId
             );
 
@@ -39,7 +41,7 @@ export class AuctionBid extends React.Component {
 
 
     onPriceChange = (event) => {
-        this.setState({price: event.target.value})
+        this.setState({currentBid: event.target.value})
     };
 
 
@@ -50,7 +52,9 @@ export class AuctionBid extends React.Component {
 
             <div className="menuWrapper">
 
-                Highest bid: {this.props.price}
+                Starting price: {this.props.price}
+                <br/>
+                Current bid: {this.props.currentBid}
 
 
                 <form onSubmit={this.onFormSubmit}>

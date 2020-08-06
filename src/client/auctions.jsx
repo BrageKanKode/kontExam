@@ -78,7 +78,35 @@ export class Auctions extends React.Component {
         return true;
     };
 
+    markAuctionAsSold = async (id, name, description, price, userId, available) => {
+        const url = "/api/auctions/" + id;
+        if(available){
+            available = false
+        } else {
+            available = true
+        }
+        const payload = {id, name, description, price, userId, available};
 
+        let response;
+
+        try {
+            response = await fetch(url, {
+                method: "put",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            });
+        } catch (err) {
+            return false;
+        }
+
+        this.fetchAuctionItems();
+
+
+        return response.status === 204;
+
+    }
 
 
     render() {
@@ -102,6 +130,7 @@ export class Auctions extends React.Component {
                         <th>Name</th>
                         <th>Description</th>
                         <th>Price</th>
+                        <th>Current bid</th>
                         <th>Options</th>
                     </tr>
                     </thead>
@@ -110,13 +139,16 @@ export class Auctions extends React.Component {
                         <tr key={"key_" + m.id} className="oneMenuItem">
                             <td>{m.name}</td>
                             <td>{m.description}</td>
-                            <td>{m.userId}</td>
+                            <td>{m.price}</td>
+                            <td>{m.currentBid}</td>
                             <td>
                                 {loggedIn ? (
                                     <div>
-                                        <Link to={"/edit?auctionId=" + m.id}>
-                                            <button className="editBtn">Edit</button>
-                                        </Link>
+                                        {this.props.user.userId !== m.userId && (
+                                            <Link to={"/edit?auctionId=" + m.id}>
+                                                <button className="editBtn">Bid</button>
+                                            </Link>
+                                        )}
                                         {this.props.user.userId === m.userId && (
                                             <button className="editBtn2" onClick={_ => this.deleteAuction(m.id)}>Delete</button>
                                         )}

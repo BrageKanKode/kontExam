@@ -13,10 +13,10 @@ export class Create extends React.Component{
         }
     }
 
-    onOk = async (name, description, price, userId) => {
+    onOk = async (name, description, price, currentBid, userId) => {
         const url = "/api/auctions";
 
-        const payload = {name, description, price, userId};
+        const payload = {name, description, price, currentBid, userId};
 
         let response;
 
@@ -51,6 +51,7 @@ export class Create extends React.Component{
                             name={""}
                             description={""}
                             price={""}
+                            currentBid={""}
                             userId={this.props.user.userId}
                             ok={"Create"}
                             okCallback={this.onOk}

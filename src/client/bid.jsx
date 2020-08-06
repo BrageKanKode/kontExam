@@ -63,10 +63,10 @@ export class Bid extends React.Component {
     }
 
 
-    onOk = async (name, description, price, id) => {
+    onOk = async (name, description, price, currentBid, id) => {
         const url = "/api/auctions/" + id;
 
-        const payload = {id, name, description, price};
+        const payload = {id, name, description, price, currentBid};
 
         let response;
 
@@ -115,6 +115,7 @@ export class Bid extends React.Component {
                             name={this.state.auctionItem.name}
                             description={this.state.auctionItem.description}
                             price={this.state.auctionItem.price}
+                            currentBid={this.state.auctionItem.currentBid}
                             auctionId={this.auctionId}
                             ok={"Update"}
                             okCallback={this.onOk}

@@ -19,11 +19,7 @@ After installing of dependencies is complected `yarn start` is used to start web
 
 ###Default data
 The app starts with 3 auctions that are being created on server startup. It was a good number that didn't take a lot of devolopment time to make up, and served its point.
-There is also made 3 default users:
-Username: Brage, Password: 1234
-Username: Jonatan, Password: 1234
-Username: Andrea, Password: 1234
-Username: Jon, Password: 1234
+
 
 ##Requirements
 

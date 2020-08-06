@@ -1,45 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="All bugs are now gone">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/auction_bid.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/auction_bid.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/auction_item.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/auction_item.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/auctions.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/auctions.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/bid.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/bid.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/create.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/create.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/headerbar.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/headerbar.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/home.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/home.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/index.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/index.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/login.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/login.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client/signup.jsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client/signup.jsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/app.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/app.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/auctions.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/db/auctions.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/db/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/db/users.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/db/users.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/auth-api.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/routes/auth-api.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/routes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/server/server.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/auction_bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_bid.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/auction_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auction_item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/auctions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/auctions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/bid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/bid.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/create.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home.jsx" afterDir="false" />
+    <list default="true" id="f59b27e0-99e5-410e-b1ec-c5a8ea1359c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/client/auction-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/client/auction-test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/client/auction_bid-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/client/auction_bid-test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/client/login-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/client/login-test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/server/app-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/server/app-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/server/auth-api-test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/server/auth-api-test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596717114093</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Done">
+      <created>1596732135737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596732135737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,17 +146,18 @@
     <MESSAGE value="Added currentBid" />
     <MESSAGE value="User can now mark auctions as sold&#10;User can't bid on sold auctions" />
     <MESSAGE value="All bugs are now gone" />
-    <option name="LAST_COMMIT_MESSAGE" value="All bugs are now gone" />
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596634118904">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1057" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596634118904" />
-    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596732032954">
+    <state x="836" y="268" key="CommitChangelistDialog2" timestamp="1596732134379">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596732032954" />
+    <state x="836" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596732134379" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1596725506522">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -215,10 +186,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596710015080" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596717115900">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1596732139798">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596717115900" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596732139798" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1596714145636">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
